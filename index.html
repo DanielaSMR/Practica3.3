@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titulo</title>
+    <link rel="stylesheet" href="style.css">
+    <h1>Pratica bloque 3</h1>
+<script>
+
+
+function funcion_apellido(){
+    var nom = document.getElementById("name").value;
+    var apellido = document.getElementById("apellido").value;
+    alert ('Benvingut' + " " + nom + " " + apellido)
+}
+
+</script>
+</head>
+<body>
+    
+    Introduce tu nombre: <input type="text" id="name">
+    Introduce tu apellido1: <input type="text" id="apellido" onblur="funcion_apellido()">
+
+</body>
+</html>
